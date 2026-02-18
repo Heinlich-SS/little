@@ -7,7 +7,7 @@
 proxy-providers:
 
   机场名称:
-    url: "机场订阅地址"  
+    url: "http://192.168.1.6:3008/T3B9dgzBzdRbBF8Aqx7P/download/collection/2in1"  
     type: http
     interval: 86400
     health-check:
@@ -463,5 +463,6 @@ rule-providers:
   
 
 #  GateFireWall / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/gfw.mrs"}
+
 
 
